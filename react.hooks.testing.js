@@ -35,6 +35,7 @@ describe('Pruebas sobre el hook useFetchGifs', ()=>{
   afterEach(()=>{
     document.body.removeChild(container);
     container = null;
+    result = null;
   });
 
 
